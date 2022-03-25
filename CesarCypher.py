@@ -9,7 +9,7 @@ def encript(shift, message):
         if(message[i] == ' '):
             new_message += ' '
         else:
-            new_index = ((ord(message[i]) - ord('A')) + shift) %  (len(alphabet)-1)
+            new_index = ((ord(message[i]) - ord('A')) + shift) %  (len(alphabet))
             new_letter = alphabet[new_index]
             new_message += new_letter
     return  new_message
@@ -20,7 +20,7 @@ def decript(shift, message):
         if(message[i] == ' '):
             new_message += ' '
         else:
-            new_index = ((ord(message[i]) - ord('A')) - shift) %  (len(alphabet)-1)
+            new_index = ((ord(message[i]) - ord('A')) - shift) %  (len(alphabet))
             new_letter = alphabet[new_index]
             new_message += new_letter
     return  new_message
