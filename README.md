@@ -13,4 +13,4 @@ CesarCyper.py [-e | -d ] [shift] [message]
 
 * * *
 
-Suports [A-Z] and keeps spaces, no other special caracter suported.
+Suports [a-zA-Z] and keeps spaces, no other special caracter suported.
